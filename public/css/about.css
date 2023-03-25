@@ -1,0 +1,37 @@
+/*.myself{*/
+/*    padding: 0;*/
+/*}*/
+.content .tags_about{
+    right: -40px;
+    top: 25px;
+    position: relative;
+}
+.content .info_my .body_about{
+    right: -20px;
+    top: 10px;
+    position: relative;
+}
+.content .box{
+    height:auto;
+    position: relative;
+    top: 115px;
+    padding-left: 10px;
+}
+.content .tags_about_end{
+    position: relative;
+    top: 75px;
+    left: 40px;
+}
+.content .body_about{
+    position: relative;
+    top: -10px;
+}
+.content .body_about_top{
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+.content .text a p{
+    color: #08FDD8;
+    margin: 15px 0 16px;
+}

@@ -1,0 +1,33 @@
+
+
+/*.contact .input{*/
+/*    padding-left: 140px;*/
+/*}*/
+.contact .text{
+    margin-right: 50px;
+}
+.contact{
+    padding: 0;
+}
+.contact .box .margin{
+    width: 303px;
+    height: 50px;
+}
+.contact .messange input{
+    width: 680px;
+}
+iframe{
+    height: 965px;
+    width: 896px;
+}
+.contact .info_map{
+    right: 50px;
+    left: auto;
+}
+.contact .message{
+    padding: 0 110px 0 40px;
+}
+.button p{
+    margin-top: 35px;
+    padding-right: 30px;
+}
