@@ -2,7 +2,7 @@
 @section("content")
     <div class="blog_new">
         <div class="cardList">
-            @foreach($home as $item)
+            @foreach($skills as $item)
                     <?php
                     $class = "";
                     $type = "";
@@ -35,7 +35,7 @@
                     <p>{{$item->text}}</p>
                     <img
                         src="{{$item->img}}"
-                        alt="">
+                        alt="картинка утікла у хащу">
                 </div>
             @endforeach
         </div>

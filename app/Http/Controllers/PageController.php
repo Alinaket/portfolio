@@ -31,7 +31,9 @@ class PageController extends Controller
         }else{
             $skills = Skills::get();
         }
-        return view("product.blog")->with("skills", $skills);
+        return view("product.blog")
+            ->with("skills", $skills)
+            ;
     }
     public function skill(){
         return view("product.skill");

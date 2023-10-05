@@ -45,9 +45,9 @@
                             <li>
                                 <a href="{{route("skill")}}">My Skills</a>
                             </li>
-                            <li>
-                                <a href="{{route("work")}}">Work</a>
-                            </li>
+{{--                            <li>--}}
+{{--                                <a href="{{route("work")}}">Work</a>--}}
+{{--                            </li>--}}
                             <li>
                                 <a href="{{route("contact")}}">Contact</a>
                             </li>

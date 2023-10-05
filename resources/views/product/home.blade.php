@@ -1,12 +1,11 @@
 @extends("layout.app")
 @section("content")
-        {{--            <div class="sound">--}}
-        {{--                <div class="img">--}}
-        {{--                    <img src="{{asset("../../public/img/logo_sount.png")}}}" alt="">--}}
-        {{--                </div>--}}
-        {{--                <span><i class="fa-brands fa-cloudflare"></i></span>--}}
-        {{--                <p>Sound<span>OFF</span></p>--}}
-        {{--            </div>--}}
+    <style>
+        iframe{
+            height:900px;
+            width: 900px;
+        }
+    </style>
         <div class="title">
             <div class="title_text">
                 <div class="tags top_tag">
@@ -40,144 +39,6 @@
             <div class="scroll">
                 <em class="right_top"><span class="scroll_text">scroll down</span><span><i class="fa-solid fa-arrow-down"></i></span></em>
                 <em class="left_top"><span class="scroll_text">scroll down</span><span><i class="fa-solid fa-arrow-down"></i></span></em>
-            </div>
-        </div>
-        <div class="work">
-            <span class="background" id="layer1">Work</span>
-{{--            <span class="background" id="layer2">Blog</span>--}}
-            <div class="box">
-                    <div class="info_work">
-                        <div class="tags top">
-                            <em> &lt;h2&gt; </em>
-                        </div>
-                        <h2> <span class="title_hover">My Portfolio</span></h2>
-                        <div class="tags">
-                            <em> &lt;h2/&gt; </em>
-                        </div>
-                        <div class="tags">
-                            <em>&lt;p&gt;</em>
-                        </div>
-                        <div class="text">
-                            <p>A small gallery of recent projects chosen by me. I've done them all together with amazing
-                                people from companies around the globe.
-                                It's only a drop in the ocean compared to the entire list.</p>
-                            <p>Interested to see some more? Visit <span>my work</span> page.</p>
-                        </div>
-                        <div class="tags">
-                            <em> &lt;p/&gt; </em>
-                        </div>
-                    </div>
-                    <div class="button">
-                        <a href="#">
-                            <p>See more</p>
-                        </a>
-                    </div>
-                <div class="tags top_center">
-                    <em> &lt;section&gt; </em>
-                </div>
-                <div class="cardList">
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img
-                                src="https://jacekjeznach.com/wp-content/uploads/2021/11/https-club-silversurfers-com-wp-content-themes-club-2B-img-logo-svg.png"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img
-                                src="https://jacekjeznach.com/wp-content/uploads/2021/11/Home-Jane-Anson-Inside-Bordeaux-janeanson-com.png"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img src="https://jacekjeznach.com/wp-content/uploads/2019/11/ttelo.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img src="https://jacekjeznach.com/wp-content/uploads/2017/10/3.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img
-                                src="https://jacekjeznach.com/wp-content/uploads/2019/01/Adrian-Flux-Motorsport-e1546707189414.jpg"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img src="https://jacekjeznach.com/wp-content/uploads/2017/10/ttelo.png" alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img src="https://jacekjeznach.com/wp-content/uploads/2019/06/Bez-nazwy-3.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img
-                                src="https://jacekjeznach.com/wp-content/uploads/2019/08/London-Block-Management-Services-Aspect-Property-Management-1-e1567256441746.jpg"
-                                alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img src="https://jacekjeznach.com/wp-content/uploads/2019/01/unnamed.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="bg"></div>
-                        <div class="button_hover">
-                            <p>veiw<br>project</p>
-                        </div>
-                        <div class="img">
-                            <img src="https://jacekjeznach.com/wp-content/uploads/2019/01/Bez-nazwy-2.png" alt="">
-                        </div>
-                    </div>
-                </div>
-                <div class="tags end_center">
-                    <em> &lt;section/&gt; </em>
-                </div>
             </div>
         </div>
         <div class="myself">
@@ -324,7 +185,7 @@
                         <em></em>
                     </div>
                     <div class="img">
-                        <img src="https://jacekjeznach.com/wp-content/themes/new/img/map.png" alt="">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101558.7990101944!2d16.536145978776563!3d50.32994948911634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165bf50b7ea863%3A0xbb9a89b2e8763e04!2z0J_QvtC70YzRiNCwINC00LXRiNC10LLRi9C1INCQ0L_QsNGA0YLQsNC80LXQvdGC0Ys!5e0!3m2!1suk!2sua!4v1677599357523!5m2!1suk!2sua"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                 </div>
             </div>
